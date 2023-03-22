@@ -176,7 +176,8 @@ section {
     left: 240px;
     top: 2245px;
     display: flex;
-    position: absolute;
+    justify-content: space-between;
+    
     
 }
 
@@ -220,7 +221,7 @@ section {
         height: 744px;
         left: 240px;
         top: 2522px;
-        position: absolute;
+        
 }
 
 .card1 {
@@ -228,26 +229,10 @@ width: 586px;
     height: 171px;
     left: 240px;
     top: 2522px;
-    position: absolute;
+    
 }
 
-.blank {
-    width: 586px;
-    height: 171px;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    background-color: white;
-    border-radius: 8px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-}
-.cards {
-    width: 514px;
-    height: 111px;
-    left: 30px;
-    top: 30px;
-    position: absolute;
-}
+
 .card-heading {
     color: rgb(19, 19, 19);
     text-overflow: ellipsis;
@@ -257,7 +242,7 @@ width: 586px;
     text-align: left;
     left: 3px;
     top: 0px;
-    position: absolute;
+    
 }
 .card-text {
     color: rgb(114, 114, 114);
@@ -270,7 +255,7 @@ width: 586px;
     width: 514px;
     left: 0px;
     top: 33px;
-    position: absolute;
+    
 }
 
 .card2 {
@@ -278,7 +263,7 @@ width: 586px;
     height: 171px;
     left: 0px;
     top: 191px;
-    position: absolute;
+    
 }
 
 .card3 {
@@ -286,7 +271,7 @@ width: 586px;
     height: 171px;
     left: 0px;
     top: 382px;
-    position: absolute;
+    
 }
 
 .card4 {
@@ -294,6 +279,53 @@ width: 586px;
     height: 171px;
     left: 0px;
     top: 573px;
-    position: absolute;
+    
+}
+.right-div {
+    width: 800px;
+    height: 1059px;
+    
+    left: 640px;
+    top: 0px;
 }
 
+/* .archi-img {
+    width: 708px;
+    height: 982px;
+    object-fit: cover;
+    
+    left: 92px;
+    top: 0px;
+} */
+
+.right-side {
+    width: 342px;
+    height: 200px;
+    background-image: url(images/architect.png);
+        background-repeat: no-repeat;
+    left: 0px;
+    top: 859px;
+}
+
+.button-three {
+    width: 342px;
+    height: 200px;
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+   
+    left: 0px;
+    top: 0px;
+}
+
+.btn-txt {
+    color: white;
+    text-overflow: ellipsis;
+    font-size: 45px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: initial;
+    line-height: 40px;
+    text-align: center;
+    width: 258px;
+    left: 42px;
+    top: 46px;
+}
