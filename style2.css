@@ -284,37 +284,21 @@ width: 586px;
 .right-div {
     width: 800px;
     height: 1059px;
-    
+    background-image: url(images/architect.png);
+        background-repeat: no-repeat;
     left: 640px;
     top: 0px;
 }
 
-/* .archi-img {
-    width: 708px;
-    height: 982px;
-    object-fit: cover;
-    
-    left: 92px;
-    top: 0px;
-} */
-
-.right-side {
-    width: 342px;
-    height: 200px;
-    background-image: url(images/architect.png);
-        background-repeat: no-repeat;
-    left: 0px;
-    top: 859px;
-}
 
 .button-three {
     width: 342px;
     height: 200px;
     background-color: rgb(255, 144, 14);
     border-radius: 8px;
-   
-    left: 0px;
-    top: 0px;
+    left: 880px;
+    top: 3104px;
+    
 }
 
 .btn-txt {
@@ -328,4 +312,37 @@ width: 586px;
     width: 258px;
     left: 42px;
     top: 46px;
+}
+
+.fact-text{
+        width: 586px;
+        height: 982px;
+        margin-left: 240px;
+        top: 3434px;
+}
+.fact-heading{
+        text-align: left;
+        left: 240px;
+        top: 3434px;       
+         font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+        color: #131313;
+        margin-bottom: 24px;
+}
+
+.fact-description{
+    left: 529px;
+    top: 3511px;
+    margin-top: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #727272;
+    margin-bottom: 32px;
 }
